@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" href="<%= BASE_URL %>loading-div.css">
+    <title>vue-template-web</title>
+  </head>
+  <body>
+
+    <!-- 首屏加载 -->
+    <!-- 首屏加载动画 -->
+    <div id="init-loading-div">
+      <img id="load-icon" src="<%= BASE_URL %>favicon.ico"></img>
+      <div id="load-text">加载模板页面</div>
+      <div id="load-text-en">vue-template-web</div>
+      <div id="load-ul">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
